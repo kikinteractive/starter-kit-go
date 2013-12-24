@@ -1,6 +1,6 @@
 var API = function () {
 	var TIMEOUT = 25 * 1000;
-	makeAPICall.prefix = 'https://go-card.appspot.com/api/';
+	makeAPICall.prefix = '/api/';
 	return makeAPICall;
 
 	function makeAPICall (method, resource, data, callback) {
